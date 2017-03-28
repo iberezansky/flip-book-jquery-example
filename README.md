@@ -1,7 +1,7 @@
 <h1>3D FlipBook jQuery plugin example</h1>
 
 <p>
-  This is an example for <a href="https://www.npmjs.com/package/flip-book">flip-book</a> npm package. It is recommended to see <a href="http://3dflipbook.iberezansky.net/">the live preview</a>.
+  This is an example for <a href="https://www.npmjs.com/package/flip-book">flip-book</a> npm package. It is recommended to see <a href="http://3dflipbook.net/">the live preview</a>.
 </p>
 
 <h2>How to use</h2>
@@ -33,5 +33,5 @@ npm run build-production
 ```
 
 <p>
-  For details see <a href="http://3dflipbook.iberezansky.net/documentation">the documentation</a>.
+  For details see <a href="http://3dflipbook.net/documentation">the documentation</a>.
 </p>
