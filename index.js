@@ -11,6 +11,12 @@ require('flip-book');
 //   pdf: 'books/pdf/FoxitPdfSdk.pdf',
 //   template: {
 //     html: 'node_modules/flip-book/templates/default-book-view.html',
+//     links: [
+//       {
+//         rel: 'stylesheet',
+//         href: 'node_modules/flip-book/css/font-awesome.min.css'
+//       }
+//     ],
 //     styles: [
 //       'node_modules/flip-book/css/short-black-book-view.css'
 //     ],
@@ -18,7 +24,7 @@ require('flip-book');
 //   }
 // });
 // // }
-
+//
 // Sample 1 {
 function theKingIsBlackPageCallback(n) {
   return {
@@ -37,6 +43,12 @@ $('#container').FlipBook({
   },
   template: {
     html: 'node_modules/flip-book/templates/default-book-view.html',
+    links: [
+      {
+        rel: 'stylesheet',
+        href: 'node_modules/flip-book/css/font-awesome.min.css'
+      }
+    ],
     styles: [
       'node_modules/flip-book/css/short-white-book-view.css'
     ],
@@ -48,12 +60,18 @@ $('#container').FlipBook({
   }
 });
 // }
-
+//
 // // Sample 2 {
 // $('#container').FlipBook({
 //   pdf: 'books/pdf/CondoLiving.pdf',
 //   template: {
 //     html: 'node_modules/flip-book/templates/default-book-view.html',
+//     links: [
+//       {
+//         rel: 'stylesheet',
+//         href: 'node_modules/flip-book/css/font-awesome.min.css'
+//       }
+//     ],
 //     styles: [
 //       'node_modules/flip-book/css/white-book-view.css'
 //     ],
@@ -72,6 +90,12 @@ $('#container').FlipBook({
 //   },
 //   template: {
 //     html: 'node_modules/flip-book/templates/default-book-view.html',
+//     links: [
+//       {
+//         rel: 'stylesheet',
+//         href: 'node_modules/flip-book/css/font-awesome.min.css'
+//       }
+//     ],
 //     styles: [
 //       'node_modules/flip-book/css/short-black-book-view.css'
 //     ],
@@ -99,6 +123,12 @@ $('#container').FlipBook({
 //   },
 //   template: {
 //     html: 'node_modules/flip-book/templates/default-book-view.html',
+//     links: [
+//       {
+//         rel: 'stylesheet',
+//         href: 'node_modules/flip-book/css/font-awesome.min.css'
+//       }
+//     ],
 //     styles: [
 //       'node_modules/flip-book/css/black-book-view.css'
 //     ],
